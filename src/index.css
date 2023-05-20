@@ -202,9 +202,11 @@
         background-color: #EEDDCC;
         text-align: center;
         padding: 1rem 3rem;
+        place-items: center;
         position: absolute;
         bottom: 0;
         left: -9rem;
+        white-space: nowrap;
 
     }
     .stat{
@@ -244,6 +246,35 @@
         height: 350px;
     }
     
+.best__fashion{
+    padding: 5rem 2rem;
+    gap: 1rem;
+}
+.best__left img{
+    border-top-left-radius: 5rem;
+}
+.best__right{
+    padding-top: 1rem;
+    padding-right: 5rem;
+}
+.best__right h2{
+    font-size: 2.5rem;
+}
+.best__right p{
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+    .stats{
+        gap: 3rem;
+        padding: 1rem 3rem;
+
+    }
+    .stat{
+        font-size: 1.7rem;
+    }
+    .stat span{
+        padding-top: .1rem;
+    }    
     
 }
 
@@ -335,6 +366,35 @@
         height: 430px;
         border-bottom-left-radius: 6rem ;
     }
+    .best__fashion{
+        padding: 3rem 1rem;
+        gap: .5rem;
+    }
+    .best__left img{
+        border-top-left-radius: 5rem;
+    }
+    .best__right{
+        padding-top: 1rem;
+        padding-right: 1rem;
+    }
+    .best__right h2{
+        font-size: 2.2rem;
+    }
+    .best__right p{
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+        .stats{
+            gap: 2rem;
+            padding: 1rem 3rem;
+    
+        }
+        .stat{
+            font-size: 1.4rem;
+        }
+        .stat span{
+            padding-top: 0rem;
+        }    
 }
 
 @media screen and (max-width:425px ) {
@@ -363,5 +423,46 @@
     .loadmore{
         margin-top: 1.5rem;
     }
+    
+    .best__fashion{
+        grid-template-columns: 1fr ;
+        padding: 2rem 1rem;
+        gap: 1rem;
+    }
+    .best__left img{
+        width: 80%;
+        height: 400px;
+        border-top-left-radius: 5rem;
+    }
+    .best__right{
+        padding-top: 1rem;
+        text-align: center;
+        padding-right: 0rem;
+    }
+    .best__right h2{
+        font-size: 2rem;
+    }
+    .best__right p{
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+    
+    .stats{
+        gap: 2rem;
+        padding: 1rem 3rem;
+        position: relative;
+        top: 0;
+        left: 0;
+
+    }
+    .stat{
+        font-size: 1rem;
+    }
+    .stat span{
+        padding-top: 0;
+        font-size: 1rem;
+    }
+
+    
     
 }
