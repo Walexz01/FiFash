@@ -20,6 +20,14 @@
     font-size: 1.2rem;
     font-weight: 600;
     color: black;
+    z-index: 1;
+}
+.nav_group{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    
 }
 .nav__links{
     display: flex;
@@ -30,7 +38,7 @@
     font-size: 1rem;
     font-weight: 500;
     height: 100%;
-    
+    margin: 0;   
 }
 
 .ctn__btn{
@@ -44,9 +52,57 @@
     border-radius: .4rem;
     font-size: 1rem;
     font-weight: 400;
-    padding: .3rem 1rem;
+    padding: .5rem 1rem;
+    text-align: center;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
 }
 .login_ctn{
     background-color: white;
     border: none;
+}
+.toogle{
+    display: none;
+}
+
+@media screen and (max-width:968px ) {
+.app{
+    padding: .7rem 1.5rem;
+}
+    
+.toogle{
+    display: flex;
+    z-index: 1;
+}
+ .nav_group{
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: #EEDDCC;
+    padding-bottom: 4rem;
+    transition: all .15s ease-in;
+ }   
+ .nav__links{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+ }
+ .ctn__btn{
+    flex-direction: column;
+    
+ }
+ .open_nav{
+    display: flex;
+ }
 }
