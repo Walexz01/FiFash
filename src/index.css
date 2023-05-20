@@ -159,6 +159,66 @@
     margin-top: 2rem;
 }
 
+.best__fashion{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5rem 7rem;
+    gap: 2rem;
+}
+.best__left{
+    overflow: hidden;
+    display: inline-flex;
+    justify-content: center;
+
+
+}
+.best__left img{
+    width: 90%;
+    height: 450px;
+    border-top-left-radius: 7rem;
+}
+.best__right{
+    padding-top: 2rem;
+    padding-right: 10rem;
+    text-align: left;
+    position: relative;
+}
+.best__right h2{
+    font-size: 3rem;
+    color: #4b2929;
+    font-weight: 700;
+}
+.best__right p{
+    font-size: 1.1rem;
+    padding: 1rem 0;
+    color: #4b2929;
+    font-weight: 400;
+    line-height: 1.6;
+}
+    .stats{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 5rem;
+        background-color: #EEDDCC;
+        text-align: center;
+        padding: 1rem 3rem;
+        position: absolute;
+        bottom: 0;
+        left: -9rem;
+
+    }
+    .stat{
+        display: flex;
+        color: #4b2929;
+        flex-direction: column;
+        font-weight: 600;
+        font-size: 2rem;
+    }
+    .stat span{
+        padding-top: .3rem;
+        font-weight: 400;
+        font-size: 1rem;
+    }
 @media screen and (max-width:1024px ) {
     
     .hero{
