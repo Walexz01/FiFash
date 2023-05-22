@@ -267,6 +267,33 @@
         width: 350px;
 
     }
+    .products{
+        padding: 2rem 7rem;
+    }
+    .products h2{
+        font-size: 2rem;
+        color: #4b2929;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    .product__card{
+        padding: 1rem 0;
+    }
+    .product__card img{
+        width: 250px;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 1rem;
+    }
+    .card__details{
+        padding: .5rem 0;
+        font-size: 1.1rem;
+    }
+    .price{
+        padding-bottom:.2rem ;
+    }
 @media screen and (max-width:1024px ) {
     
     .hero{
@@ -379,6 +406,15 @@
 }
 .loadmore{
     margin-top: 1.5rem;
+}
+
+.products{
+    padding: 2rem 2rem;
+}
+.cards{
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+    gap: 4rem;
 }
 
 }
@@ -555,4 +591,12 @@
         width: 250px;
         box-shadow: 0 0 .6rem #706565;
     }
+    .products{
+        padding: 2rem 1rem;
+    }
+    .cards{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
 }

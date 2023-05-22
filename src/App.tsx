@@ -3,7 +3,7 @@ import DealOfTheDay from "./components/DealOfTheDay";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 import NewCollection from "./components/NewCollection";
-
+import OurProducts from "./components/OurProducts";
 function App() {
   return (
     <div className="app">
@@ -12,6 +12,7 @@ function App() {
       <NewCollection />
       <BestFashion />
       <DealOfTheDay />
+      <OurProducts />
     </div>
   );
 }

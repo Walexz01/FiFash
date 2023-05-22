@@ -19,7 +19,7 @@ const NavBar = () => {
         </div>
       </div>
       <div className="toogle" onClick={() => setIsNavOpen(!isNavOpen)}>
-        open
+        {isNavOpen ? "close" : "open"}
       </div>
     </nav>
   );
