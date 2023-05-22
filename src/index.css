@@ -441,6 +441,31 @@
         .stat span{
             padding-top: 0rem;
         }    
+
+        .deal_of_the_day{
+            grid-template-columns: 1fr 1fr;
+            padding: 4rem 2rem;
+            gap: 2rem;
+        }
+        .deal__left h2{
+            font-size: 1.7rem;
+    
+        }
+        .deal__left p{
+            font-size: 1.1rem;
+            padding: 0rem 1rem 1rem 0;    
+        }
+        .times{
+            gap: 1rem;
+        }
+        .time{
+            font-size: 1.1rem;
+    
+        }
+        .deal-right img{
+            width: 300px;
+    
+        }
 }
 
 @media screen and (max-width:425px ) {
@@ -509,4 +534,25 @@
         padding-top: 0;
         font-size: 1rem;
     }   
+    
+    .deal_of_the_day{
+        grid-template-columns: 1fr ;
+        padding: 2rem 1rem;
+        gap: 2rem;
+        text-align: center;
+    }
+    .deal__left p{
+        font-size: 1.1rem;
+        padding: 0rem 0rem 1rem 0;    
+    }
+    .times{
+        justify-content: center;
+    }
+    .time{
+        font-size: 1.1rem;
+    }
+    .deal-right img{
+        width: 250px;
+        box-shadow: 0 0 .6rem #706565;
+    }
 }
