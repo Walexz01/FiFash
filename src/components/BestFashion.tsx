@@ -1,4 +1,4 @@
-import image from "../assets/photo-1539109136881-3be0616acf4b.jpeg";
+import image from "../assets/avatar7.jpg";
 
 const BestFashion = () => {
   return (

@@ -1,4 +1,6 @@
-import image from "../assets/photo-1539109136881-3be0616acf4b.jpeg";
+import image1 from "../assets/avatar1.jpg";
+import image2 from "../assets/avatar5.jpg";
+import image3 from "../assets/avatar6.jpg";
 
 const NewCollection = () => {
   return (
@@ -11,9 +13,9 @@ const NewCollection = () => {
         </p>
       </div>
       <div className="img__grid">
-        <img src={image} alt="" />
-        <img src={image} alt="" />
-        <img src={image} alt="" />
+        <img src={image1} alt="" />
+        <img src={image2} alt="" />
+        <img src={image3} alt="" />
       </div>
       <button className="action-btn loadmore">Load More</button>
     </div>
