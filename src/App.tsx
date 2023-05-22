@@ -1,5 +1,6 @@
 import BestFashion from "./components/BestFashion";
 import DealOfTheDay from "./components/DealOfTheDay";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 import NewCollection from "./components/NewCollection";
@@ -11,8 +12,9 @@ function App() {
       <Hero />
       <NewCollection />
       <BestFashion />
-      <DealOfTheDay />
       <OurProducts />
+      <DealOfTheDay />
+      <Footer />
     </div>
   );
 }
